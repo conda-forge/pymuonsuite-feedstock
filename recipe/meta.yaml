@@ -1,5 +1,5 @@
 {% set name = "pymuonsuite" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMuonSuite-{{ version }}.tar.gz
-  sha256: fae39add40ea75d3419dc8e6dd24ddbf94834c7ff701b12fe2d35175d5a271d0
+  sha256: 2a2de76eadaa60ab3e140e2c6e7349216e0280d1e38d78e392fdba8d2956651a
 
 build:
   number: 0
