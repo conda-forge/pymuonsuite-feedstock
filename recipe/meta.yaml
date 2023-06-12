@@ -1,5 +1,5 @@
 {% set name = "pymuonsuite" %}
-{% set version = "0.2.3" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMuonSuite-{{ version }}.tar.gz
-  sha256: e0a0bf7adafe7383b94b86d5ac99c9c6ffa7c80467bb51a2f6b82881967dfb52
+  sha256: d6157f57b52ff64efd5758a86061d636193d797f4c11bdf917912bd32a049059
 
 build:
   number: 0
@@ -26,12 +26,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8, <=3.11
   run:
     - ase >=3.18.1
     - numpy
     - parse-fmt >=0.5
-    - python >=3.7
+    - python >=3.8, <=3.11
     - pyyaml
     - schema
     - scipy
