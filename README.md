@@ -1,11 +1,11 @@
-About pymuonsuite
-=================
+About pymuonsuite-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymuonsuite-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/PyMuonSuite/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymuonsuite-feedstock/blob/main/LICENSE.txt)
 
 Summary: A suite of utilities for muon spectroscopy
 
@@ -143,6 +143,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@joelvdavies](https://github.com/joelvdavies/)
 * [@leandro-liborio](https://github.com/leandro-liborio/)
 * [@patrick-austin](https://github.com/patrick-austin/)
 
