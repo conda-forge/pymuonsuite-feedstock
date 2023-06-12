@@ -26,12 +26,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8, <=3.11
   run:
     - ase >=3.18.1
     - numpy
     - parse-fmt >=0.5
-    - python >=3.7
+    - python >=3.8, <=3.11
     - pyyaml
     - schema
     - scipy
