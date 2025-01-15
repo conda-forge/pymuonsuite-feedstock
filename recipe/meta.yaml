@@ -27,6 +27,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - ase >=3.18.1
     - numpy
