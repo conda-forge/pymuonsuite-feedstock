@@ -1,5 +1,5 @@
 {% set name = "pymuonsuite" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/PyMuonSuite-{{ version }}.tar.gz
-  sha256: d6157f57b52ff64efd5758a86061d636193d797f4c11bdf917912bd32a049059
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: a86aad9606dbc001d2ff0dcfbd38a35cec6dbb4b38f362be3520944536b366d7
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - pm-muairss-gen = pymuonsuite.muairss:main_generate
